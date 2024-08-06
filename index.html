@@ -33,32 +33,32 @@
     </style>
 </head>
 <body>
-    <img src="./moto.png" id="main-product-img">
+    <img src="./images/moto.png" id="main-product-img">
     <div class="product-img-container">
 
-        <img src="./1.png" class="product-img" onclick="changeImage(1)"/>
-        <img src="./2.png" class="product-img" onclick="changeImage(2)">
-        <img src="./3.png" class="product-img" onclick="changeImage(3)">
-        <img src="./4.png" class="product-img" onclick="changeImage(4)">
-        <img src="./5.png" class="product-img" onclick="changeImage(5)">
+        <img src="./images/1.png" class="product-img" onclick="changeImage(1)"/>
+        <img src="./images/2.png" class="product-img" onclick="changeImage(2)">
+        <img src="./images/3.png" class="product-img" onclick="changeImage(3)">
+        <img src="./images/4.png" class="product-img" onclick="changeImage(4)">
+        <img src="./images/5.png" class="product-img" onclick="changeImage(5)">
     </div>
     <script>
         function changeImage(num){
         const mainImage= document.getElementById('main-product-img');
 
         if(num==1){
-            mainImage.src="1.png";  
+            mainImage.src="./images/1.png";  
         }else if(num==2){
-            mainImage.src="2.png";  
+            mainImage.src="./images/2.png";  
 
         }else if(num==3){
-            mainImage.src="3.png";  
+            mainImage.src="./images/3.png";  
 
         }else if(num==4){
-            mainImage.src="4.png";  
+            mainImage.src="./images/4.png";  
 
         }else if(num==5){
-            mainImage.src="5.png";  
+            mainImage.src="./images/5.png";  
 
         }
         }
